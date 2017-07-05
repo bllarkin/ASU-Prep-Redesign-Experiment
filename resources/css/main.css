@@ -1,7 +1,47 @@
-body {
-  
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1 {
-
+header {
+  margin-left: 15px;
 }
+
+#main-logo {
+  height: 100px;
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+nav ul, nav li {
+  display: block;
+  padding: 5px 10px;
+  height: 1.5em;
+  font-size: 18px;
+  -webkit-margin-before: 0;
+}
+
+
+
+nav>ul>li {
+  display: inline-block;
+  vertical-align: top;  
+}
+
+/*.nav-header {
+  display: inline-block;
+  vertical-align: top;
+}*/
+
+.nav-header li a {
+  display: none;
+}
+
+/*
+.nav-header li a:hover {
+  display: block;
+}*/
